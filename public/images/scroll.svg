@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="25px" viewBox="0 0 17 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>scroll</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="stan-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.200000003" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(-121.000000, -547.000000)" id="header" stroke="#414042" stroke-width="2">
+            <g transform="translate(120.000000, 73.000000)">
+                <g id="scroll" transform="translate(2.000000, 475.000000)">
+                    <path d="M7.5,23 C3.35785714,23 0,19.866 0,16 L0,7 C0,3.134 3.35785714,0 7.5,0 C11.6421429,0 15,3.134 15,7 L15,16 C15,19.866 11.6421429,23 7.5,23 Z" id="Stroke-1"></path>
+                    <path d="M7.5,9 C6.671,9 6,8.329 6,7.5 L6,5.5 C6,4.671 6.671,4 7.5,4 C8.329,4 9,4.671 9,5.5 L9,7.5 C9,8.329 8.329,9 7.5,9 Z" id="Stroke-3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

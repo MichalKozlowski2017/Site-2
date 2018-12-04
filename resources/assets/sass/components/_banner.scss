@@ -1,0 +1,220 @@
+.banner {
+	background-color: #fff;
+	padding: 0;
+	.btn-1 {
+		button {
+
+		}
+		span {
+			width: 60px !important;
+			transform: rotate(90deg);
+			&:after {
+				content: '';
+				width: 50px;
+				height: 8px;
+				position: absolute;
+				background-image: url(../images/btn_arrow.svg);
+				background-size: 50px 8px;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+		}
+	}
+	&__left {
+		background-image: url(../images/banner-mobile.jpg);
+		background-size: cover;
+		background-position: top right;
+		padding-left: 15px;
+		padding-bottom: 40px;
+		margin-top: 20px;
+		&__title {
+			h1 {
+				font-size: 22vw;
+				margin-bottom: 15px;
+				font-weight: 700;
+			}
+		}
+		&__subtitle {
+			width: 60%;
+			margin-bottom: 50px;
+			h2 {
+				font-size: 16px;
+				line-height: 24px;
+				span {
+					position: relative;
+					z-index: 1;
+					display: inline-block;
+					&:before {
+						content: '';
+						width: 100%;
+						height: 8px;
+						background-color: #dfdce8;
+						position: absolute;
+						bottom: 3px;
+						left: 0;
+						z-index: -1;
+					}
+				}
+			}
+		}
+		&__termin {
+			color: #333333;
+			font-size: 14px;
+			margin-top: 20px;
+			width: 50%;
+			span {
+			    width: 7vw;
+			    display: none;
+			    height: 2px;
+			    margin-bottom: 4px;
+			    margin-left: 10px;
+			    margin-right: 10px;
+			    background-color: rgba(0,0,0,0.2);
+			}
+		}
+		&__scroller {
+			width: 15px;
+			height: 23px;
+			background-size: 15px 23px;
+			background-image: url(../images/scroll.svg);
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+	
+	&__right {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		height: auto;
+		display: none;
+		&__image {
+			background-image: url(../images/banner_right.jpg);
+			background-size: cover;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	@include mq($min-width: 575px) {
+		&__left {
+			padding-bottom: 100px;
+		}
+	}
+
+	@include mq($min-width: 768px) {
+		&__left {
+			background-size: cover;
+			background-repeat: no-repeat;
+			margin-top: -150px;
+			padding-top: 160px;
+			padding-bottom: 150px;
+			&__title {
+				h1 {
+					font-size: 15vw;
+					margin-bottom: 15px;
+				}
+			}
+			&__termin {
+				color: #cccccc;
+			}
+		}
+
+		
+	}	
+
+	@include mq($min-width: 992px) {
+		&__left {
+			background-image: none;
+			padding-left: 100px;
+			position: relative;
+			height: auto;
+			padding-bottom: 4vw;
+			&__title {
+				h1 {
+					font-size: 10vw;
+					margin-top: 3vw;
+				}
+			}
+			&__subtitle {
+				width: 80%;
+				margin-bottom: 4vw;
+				h2 {
+					font-size: 1.9vw;
+					line-height: 2.4vw;
+					span {
+						&:before {
+							content: '';
+							width: 100%;
+							height: 1vw;
+							background-color: #dfdce8;
+							position: absolute;
+							bottom: -0.9vw;
+							left: 0;
+							z-index: -1;
+						}
+					}
+				}
+			}
+			&__termin {
+				font-size: 1.2vw;
+				margin-top: 4vw;
+				width: 100%;
+				span {
+				    width: 7vw;
+				    display: inline-block;
+				    height: 2px;
+				    margin-bottom: 4px;
+				    margin-left: 10px;
+				    margin-right: 10px;
+				    background-color: rgba(0,0,0,0.2);
+				}
+			}
+			&__scroller {
+				width: 15px;
+				height: 23px;
+				background-size: 15px 23px;
+				background-image: url(../images/scroll.svg);
+				position: absolute;
+				bottom: 20px;
+				left: 100px;
+				transform: translateX(0%);
+			}
+		}
+		
+		&__right {
+			width: 100%;
+			height: 100%;
+			position: relative;
+			height: 40vw;
+			display: block;
+			padding-right: 0;
+			padding-left: 0;
+			&__image {
+				background-image: url(../images/banner_right.jpg);
+				background-size: cover;
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+	@include mq($min-width: 992px) {
+		&__left {
+			padding-left: 100px;
+			&__subtitle {
+				h2 {
+					font-size: 1.3vw;
+					span {
+						&:before {
+							height: .7vw;
+							bottom: .4vw;
+						}
+					}
+				}
+			}
+		}
+	}
+}

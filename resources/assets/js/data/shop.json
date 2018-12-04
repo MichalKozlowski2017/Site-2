@@ -1,0 +1,165 @@
+{
+	"products": [
+		{
+			"id": "1",
+			"name": "T-shirt męski",
+			"price": "44,99",
+			"gender": "male",
+			"options": [
+				{
+					"color1": "#232232",
+					"color2": "#2f4669",
+					"image": "/images/m1-1.png",
+					"link": "https://--nazwa-firmy--.com/t-shirt-meski-tsm602---niebieski,81,2497.html"
+				},
+				{
+					"color1": "#1f1a1e",
+					"color2": "#7c424c",
+					"image": "/images/m1-2.png",
+					"link": "https://--nazwa-firmy--.com/t-shirt-meski-tsm602---czerwony,81,2498.html"
+				},
+				{
+					"color1": "#211d21",
+					"color2": "#4f4e55",
+					"image": "/images/m1-3.png",
+					"link": "https://--nazwa-firmy--.com/t-shirt-meski-tsm602---ciemny-szary,81,2499.html"
+				}
+			]
+		},
+		{
+			"id": "2",
+			"name": "Plecak miejski",
+			"price": "44,99",
+			"gender": "male",
+			"options": [
+				{
+					"color1": "#1c408c",
+					"color2": "#1c408c",
+					"image": "/images/m2-1.png",
+					"link": "https://--nazwa-firmy--.com/plecak-miejski-pcd600---kobalt,126,1180.html"
+				}
+				
+			]
+		},
+		{
+			"id": "3",
+			"name": "Spodnie dresowe męskie",
+			"price": "119,99",
+			"gender": "male",
+			"options": [
+				{
+					"color1": "#000000",
+					"color2": "#333238",
+					"image": "/images/m3-1.png",
+					"link": "https://--nazwa-firmy--.com/spodnie-dresowe-meskie-spmd604---multikolor,100,2576.html"
+				},
+				{
+					"color1": "#000000",
+					"color2": "#000000",
+					"image": "/images/m3-2.png",
+					"link": "https://--nazwa-firmy--.com/spodnie-dresowe-meskie-spmd604---czarny,100,2577.html"
+				}
+			]
+		},
+		{
+			"id": "4",
+			"name": "Czapka damska",
+			"price": "34,99",
+			"gender": "female",
+			"options": [
+				{
+					"color1": "#25252c",
+					"color2": "#22222a",
+					"image": "/images/f1-1.png",
+					"link": "https://--nazwa-firmy--.com/czapka-damska-cad601---multikolor,59,2772.html"
+				},
+				{
+					"color1": "#e2797a",
+					"color2": "#e2797a",
+					"image": "/images/f1-2.png",
+					"link": "https://--nazwa-firmy--.com/czapka-damska-cad601---lososiowy,59,2773.html"
+				}
+			]
+		},
+		{
+			"id": "5",
+			"name": "Spodenki dresowe damskie",
+			"price": "39,99",
+			"gender": "female",
+			"options": [
+				{
+					"color1": "#3f4c63",
+					"color2": "#3f4c63",
+					"image": "/images/f2-3.png",
+					"link": "https://--nazwa-firmy--.com/spodenki-dresowe-damskie--skdd600---denim-melanz,51,2657.html"
+				},
+				{
+					"color1": "#000000",
+					"color2": "#000000",
+					"image": "/images/f2-2.png",
+					"link": "https://--nazwa-firmy--.com/spodenki-dresowe-damskie--skdd600---czarny,51,2658.html"
+				},
+				{
+					"color1": "#b8b9bd",
+					"color2": "#b8b9bd",
+					"image": "/images/f2-1.png",
+					"link": "https://--nazwa-firmy--.com/spodenki-dresowe-damskie-skdd600---cieply-jasny-szary,51,2659.html"
+				}
+			]
+		},
+		{
+			"id": "6",
+			"name": "Plecak-worek",
+			"price": "34.99",
+			"gender": "female",
+			"options": [
+				{
+					"color1": "#1b2539",
+					"color2": "#1b2539",
+					"image": "/images/f3-1.png",
+					"link": "https://--nazwa-firmy--.com/plecak-worek-pcd607---ciemny-granatowy,126,1183.html"
+				}
+			]
+		},
+		{
+			"id": "7",
+			"name": "Bluza damska",
+			"price": "99,99",
+			"gender": "female",
+			"options": [
+				{
+					"color1": "#a5b8de",
+					"color2": "#161f47",
+					"image": "/images/f5-1.png",
+					"link": "https://--nazwa-firmy--.com/bluza-damska-bld607---jasny-niebieski,26,2803.html"
+				}
+			]
+		},
+		{
+			"id": "8",
+			"name": "T-shirt damski",
+			"price": "39,99",
+			"gender": "female",
+			"options": [
+				{
+					"color1": "#b1bedd",
+					"color2": "#b1bedd",
+					"image": "/images/f4-1.png",
+					"link": "https://--nazwa-firmy--.com/t-shirt-damski--tsd616---niebieski-melanz,28,2524.html"
+				},
+				{
+					"color1": "#ec8c86",
+					"color2": "#ec8c86",
+					"image": "/images/f4-2.png",
+					"link": "https://--nazwa-firmy--.com/t-shirt-damski--tsd616---lososiowy-melanz,28,2525.html"
+				},
+				{
+					"color1": "#ee6983",
+					"color2": "#ee6983",
+					"image": "/images/f4-3.png",
+					"link": "https://--nazwa-firmy--.com/t-shirt-damski-tsd616---ciemny-roz-melanz,28,2526.html"
+				}
+			]
+		}
+	]
+}

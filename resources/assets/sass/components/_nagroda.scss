@@ -1,0 +1,102 @@
+.nagroda {
+	&__left {
+		padding-top: 65px;
+		padding-bottom: 120px;
+		background-image: url(../images/nagroda.jpg);
+		background-size: cover;
+		&__logo {
+			margin-bottom: 36px;
+			img {
+				width: 215px;
+				height: 30px;
+			}
+		}
+		&__text {
+			max-width: 250px;
+			p {
+				color: #fff;
+			}
+		}
+		&__btn {
+			cursor: pointer;
+			a {
+				button {
+					color: #fff;
+					border: 0;
+					outline: none;
+					background-color: #fff;
+					background: rgba(95,78,140,0.7);
+					font-size: 12px;
+					padding: 18px 10px;
+					font-weight: 700;
+					float: left;
+					line-height: 2;
+					cursor: pointer;
+					transition: .3s;
+					&:hover {
+						background: rgba(95,78,140,1);
+						box-shadow: 0 10px 20px 0 rgba(0,0,0,0.20);
+					}
+					span {
+						position: relative;
+						display: block;
+						width: 48px;
+						height: 24px;
+						background-color: #fff;
+						float: right;
+						margin-left: 20px;
+						&:after {
+							content: '';
+							width: 34px;
+							height: 5px;
+							background-image: url(../images/btn_arrow_color.svg);
+							background-size: 34px 5px;
+							position: absolute;
+							top: 50%;
+							left: 50%;
+							transform: translate(-50%, -50%);
+						}
+					}
+				}
+			}
+		}
+		@include mq($min-width: 768px) {
+			padding-left: 100px;
+		}
+	}
+	&__right {
+		background-color: $color-primary;
+		height: 200px;
+		position: relative;
+		&__image {
+			position: absolute;
+			margin-top: -150px;
+			left: 50%;
+			transform: translateX(-50%);
+			img {
+				max-width: 470px;
+			}
+		}
+		@include mq($min-width: 768px) {
+			height: auto;
+			&__image {
+				height: auto;
+				top: 50%;
+				transform: translateY(-50%);
+				margin-top: auto;
+				left: -50%;
+				img {
+					max-width: 400px;
+				}
+			}
+		}
+		@include mq($min-width: 992px) {
+			&__image {
+				left: -235px;
+				img {
+					max-width: 470px;
+				}
+			}
+		}
+	}
+}

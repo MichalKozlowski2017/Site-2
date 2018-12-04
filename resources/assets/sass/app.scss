@@ -1,0 +1,29 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,700');
+
+
+// Variables
+@import "variables";
+
+// Mediaqueries
+@import "~sass-mediaqueries/media-queries";
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font awesome
+@import '~font-awesome/scss/font-awesome';
+
+// Global
+@import 'global';
+
+// Components
+@import 'components/banner';
+@import 'components/form';
+@import 'components/nagroda';
+@import 'components/shop';
+
